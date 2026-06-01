@@ -54,7 +54,6 @@ Network Switch
    -------------------------------------------------------------------------
    TCP 80              HTTP             Internal Nginx web routing
    TCP 8080            HTTP-Alt         External public web traffic entry point
-   TCP 2222            SSH              Hardened remote administration terminal
    UDP 51820           WireGuard        Inbound VPN tunnel handshake
 
 5. **Web Server Configuration**

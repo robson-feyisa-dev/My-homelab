@@ -88,7 +88,7 @@ Network Switch
 
   Interface: wg0
   VPN Subnet: 10.0.0.1
-  Client Configurations: Dedicated peer endpoints configured for mobile devices (e.g., iPhone assigned to 10.0.0.2).
+  Client Configurations: Dedicated peer endpoints configured for mobile devices (e.g., personal phone assigned to 10.0.0.2).
   Keepalive: Persistent keepalives enabled on the mobile clients to maintain active state across dynamic cellular handovers.
 
   To ensure VPN clients can communicate beyond the VPN interface and reach devices across the wider home local area network, IP forwarding and iptables rules are configured.

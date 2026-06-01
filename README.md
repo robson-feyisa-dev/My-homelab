@@ -41,7 +41,6 @@ Network Switch
 
    To prevent automated brute-force attacks from the public internet,
    the OpenSSH server was hardened using the following steps:
-   * Port changed from default 22 to 2222.
    * Disabled password-based authentication completely (PasswordAuthentication no).
    * Enforced cryptographic public-key authentication only.
    * Configured local firewall exceptions exclusively for authorized subnets.
